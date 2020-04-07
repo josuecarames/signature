@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 400px;
+}
+
+html {
+    margin: .25%;
+    padding: 0%;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: Light, sans-serif;
+    font-size: 1em;
+    color: #484848;
+}
+
+header {
+    font-style: italic;
+}
+
+body {
+    color: #808080;
+    font-family: Light, sans-serif;
+}
+
+.title {
+    font-family: Georgia, serif; 
+    font-style: italic; 
+    font-weight: bold; 
+    color: rgb(77, 77, 77); 
+    line-height: 1px; 
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.subtitle {
+    color: #808080; 
+    font-family: Lato;
+    font-style: italic; 
+    font-weight: lighter; 
+    font-size: .85em;
+    line-height: 1.5em;
+}
+
+.letter_symbols {
+    color: #b99902;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.description_symbols {
+    color: #808080;
+    text-decoration: none;
+    font-size: .8em;
+    transition: .1s ease-in-out;
+}
+
+.description_symbols:hover {
+    cursor: pointer;
+    color: #1764ac;
+}
+
+.pics {
+    width: 100px;
+    /* filter: drop-shadow(2px 2px 5px #333) */
+}
+
+.logos {
+    width: 20px;
+    transition: .1s ease-in-out; 
+}
+
+.logos:hover {
+    width: 20px;
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2)
+}
+
+.logos:active {
+    transform: scale(.8);
+}
+
+.calendar_logo {
+    width: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    transition: .3s ease-in-out;
+}
+
+.calendar_logo:hover {
+    width: 20px;
+    cursor: pointer;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.calendar_logo:active {
+    transform: scale(.8);
+}
+
+
+
+
+
+
+/* Header */
+
+
+header {
+width: 100%;
+
+text-decoration: none;
+}
+
+.a-header {
+text-decoration: none;
+font-size: .9em;
+font-style: italic;
+color: #484848;
+}
+
+main {
+display: grid;
+grid-template-columns: 1.5fr 2.5fr;
+}
+
+#separator {
+font-style: normal;
+}
+
+/* Main */
+
+main {
+display: grid;
+grid-template-columns: 1fr 3fr;
+padding: 1%;
+}
+
+.left {
+width: ;
+border-right: 1px solid grey;
+padding-right: 10px;
+padding: 1%;
+}
+
+.right {
+width: ;
+padding-left: 10px;
+}
+
+/* Footer */
+
+footer {
+padding: 2%
+text-decoration: none;
+font-size: .9em;
+font-style: italic;
+color: #484848;
+}
